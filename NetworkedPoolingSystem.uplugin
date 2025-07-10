@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"EngineVersion": "5.4.0",
+	"FriendlyName": "NetworkedPoolingSystem",
+	"Description": "Networked Pooling System",
+	"Category": "Other",
+	"CreatedBy": "JOSEUEM",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"PlatformAllowList": [ "Win64", "Linux", "Mac" ],
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/bf61333982f64603bb2d023c6b2daf72",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NetworkedPoolingSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "NetworkedPoolingSystemDeveloper",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+	{
+		"Name": "GameplayAbilities",
+		"Enabled": true
+	}]
+}
